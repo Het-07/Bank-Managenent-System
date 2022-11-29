@@ -29,6 +29,38 @@ Filter Transaction Records Between 2 dates
 Logout Page
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+ScreenShot - MAIN PAGE of BANK MANAGEMENT SYSTEM
+
 <img width="1440" alt="Main Page" src="https://user-images.githubusercontent.com/76025681/204486620-affd6f35-7100-46f2-9d55-cd42fb3906b0.png">
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+How to Run
+
+Download/Install the following
+- Python (I used v3.9.1)
+- PIP (for python modules installation)
+
+Setup/Installation
+
+- Download and Extract the provided source code zip file. (download button is located below)
+- Open your Terminal/Command Prompt window. (make sure to add "python" and "pip" in your environment variables)
+- Change the working directory to the extracted source code folder. i.e. 
+    cd C:\Users\Personal-23\Desktop\django_banking
+- Run the following commands:
+    pip install -r requirements.txt
+    python manage.py migrate
+    python manage.py runserver
+- Keep the terminals open and running.
+- Open a web browser and browse the Simple Banking Management System 
+    http://localhost:8000/ or http://127.0.0.1:8000/
+    http://127.0.0.1:8000/admin for the Django's Admin Site.
+
+- Default Admin Access (Login only @ Django Admin Panel)
+    Email: admin@mail
+    Password: admin123
+
+- Sample User Access
+    Email: mcooper@mail
+    Password: test#123
+    
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
